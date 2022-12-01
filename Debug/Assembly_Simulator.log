@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\maya3\Desktop\Computer Assembly\Assembly_Simulator\main.cpp(302,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maya3\Desktop\Computer Assembly\Assembly_Simulator\main.cpp(342,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maya3\Desktop\Computer Assembly\Assembly_Simulator\main.cpp(376,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maya3\Desktop\Computer Assembly\Assembly_Simulator\main.cpp(410,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maya3\Desktop\Computer Assembly\Assembly_Simulator\main.cpp(446,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maya3\Desktop\Computer Assembly\Assembly_Simulator\main.cpp(830,24): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  Assembly_Simulator.vcxproj -> C:\Users\maya3\Desktop\Computer Assembly\Assembly_Simulator\Debug\Assembly_Simulator.exe

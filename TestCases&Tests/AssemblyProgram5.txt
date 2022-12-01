@@ -1,0 +1,6 @@
+ANDI t0, s1, 2
+ORI t1, s1, 2
+XORI t2, s1, 2
+SLLI t3, s1, 2
+SRLI t4, s1, 2
+SRAI t5, s1, 2

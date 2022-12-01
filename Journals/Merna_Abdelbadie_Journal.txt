@@ -1,0 +1,12 @@
+5 Nov - 3:30 P.M. - Read from Assembly Program file
+5 Nov - 3:45 P.M. - Check the instructions in Assembly program file in order to go to the right function
+5 Nov - 4:00 P.M. - Implemented ECALL, EBREAK, FENCE
+5 Nov - 6:45 P.M. - Extracted the names of the registers and the offset of LW, LH, LB, LBU, LHU, SW, SB, SW from the instruction in order to perform the instruction
+5 Nov - 6:45 P.M. - Extracted the name of the destination register and immediate of LUI in order to perform the instruction
+10 Nov - 8:00 P.M. - Added the PC and incremented it for every instruction execution
+17 Nov - 1:00 P.M. - Created unordered map to hold the 32 registers, initialized all registers using register file that contains all registers initialized with zero
+17 Nov - 1:15 P.M. - Read from program file and updated the values of registers in the unordered map accordingly
+17 Nov - 2:00 P.M. - Added support to SW, SH, SB instructions
+17 Nov - 4:00 P.M. - Added support to LW, LH, LB, LBU, LHU instructions
+17 Nov - 5:30 P.M. - Added support to LUI instruction
+19 Nov - 8:00 P.M. - Fixed a logical error in LUI

@@ -1,0 +1,11 @@
+addi sp, sp, -4 
+sh s0, 0(sp)
+add t0, a0, a1
+add t1, a2, a3
+sub s0, t0, t1
+add a0, s0, zero
+lh s0, 0(sp)
+addi sp, sp, 4
+jalr zero, 0(ra)
+FENCE
+add t0, t0, t0

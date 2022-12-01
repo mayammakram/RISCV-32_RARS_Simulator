@@ -1,0 +1,4 @@
+addi s0, zer, -4
+addi s1, zer, 5
+slt t0, s0, s1
+sltu t1, s0, s1

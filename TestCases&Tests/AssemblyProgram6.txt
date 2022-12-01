@@ -1,0 +1,7 @@
+AND t0, s1, s2
+OR t1, s1, s2
+XOR t2, s1, s2
+SLL t3, s1, s2
+SRL t4, s1, s2
+SRA t5, s1, s2
+

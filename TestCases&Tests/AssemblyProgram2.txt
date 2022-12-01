@@ -1,0 +1,9 @@
+l2: add a0, zero, s1
+sb a0, 20(zero)
+lb a1, 20(zero)
+blt s1, zero, l1
+jal zero, l2
+l1: lui s0, 4055702
+auipc s1, 4055602
+jalr s1, 0(ra) 
+ECALL

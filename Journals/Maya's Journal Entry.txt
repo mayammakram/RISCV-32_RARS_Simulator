@@ -1,0 +1,9 @@
+7 Nov - 6:30 P.M. - created test files to read and write to functions
+7 Nov - 7:00 P.M. - checked the instructions in Assembly program file in order to go to the right function
+7 Nov - 9:00 P.M. - created unordered map for labels and stored it labels and corresponding program counters
+9 Nov - 6:45 P.M. - edited instruction unordered map and read from assembly file
+9 Nov - 7:45 P.M. - wrote code to parse over instruction and place them in their corresponding entries
+15 Nov - 8:00 P.M. - wrote jal, jalr instructions
+17 Nov - 1:00 P.M. - wrote beq, bneq, blt, bge
+17 Nov - 6:15 P.M. - wrote bgeu, bltu
+17 Nov - 9:00 P.M. - error handling

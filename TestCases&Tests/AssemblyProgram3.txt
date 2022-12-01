@@ -1,0 +1,26 @@
+addi a0, zero, 1000
+addi t0, zero, 14
+sw t0, 0(a0)
+addi t0, zero, 21
+sw t0, 4(a0)
+addi t0, zero, -5
+sw t0, 8(a0)
+addi t0, zero, 76
+sw t0, 12(a0)
+addi a1, zero, 4
+jal ra, max
+add s0, zero, a0
+EBREAK
+max: lw t0, 0(a0)
+addi t1, zero, 1
+l3: bge t1, a1, l1
+slli t2, t1, 2
+add t3, a0, t2
+lw t4, 0(t3)
+blt t4, t0, l2
+add t0, zero, t4
+l2: addi t1, t1, 1
+beq zero, zero, l3
+l1: add a0, zero, t0
+jalr zero, 0(ra)
+

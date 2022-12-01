@@ -1,0 +1,11 @@
+Farah:
+6 Nov  - 8:00 P.M. - Extracted the names of the rs1, rs2, and rd registers for the ADD, SUB, AND, OR, XOR, SLL, SRL, SRA, SLT instructions
+6 Nov  - 10:00 P.M. - Extracted the names of the rs1, immediate, and rd registers for the ADDI, SUBI, ANDI, ORI, XORI, SLLI, SRLI, SRAI, SLTI instructions
+10 Nov - 5:00 P.M. - Created the register text file that holds the names, values (initialized with zero), and addresses of registers 
+15 Nov - 6:00 P.M. - Implemented the ADD, ADDI, and SUB instructions
+17 Nov - 1:00 P.M. - Implemented the AND, ANDI, OR, ORI
+17 Nov - 7:00 P.M. - Implemented the SLT, SLTI
+18 Nov - 1:00 P.M. - Implemented the XOR, XORI, SRA, SRAI
+18 Nov - 6:00 P.M. - Implemented the SLTU, SLTIU
+19 Nov - 3:00 P.M. - Implemented the SLL, SLLI, SRL, SRLI 
+
